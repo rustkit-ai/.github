@@ -19,14 +19,14 @@ We build open source tools that sit at the intersection of **AI** and **develope
 
 **Current focus:**
 - 🦀 **Rust-first** — fast, reliable, zero runtime overhead
-- 🤖 **AI tooling** — MCP servers, agentic workflows, LLM integrations
+- 🤖 **AI tooling** — persistent memory, MCP servers, agentic workflows
 - ⚡ **Cost reduction** — less tokens, less noise, more signal
 
 ## Projects
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| `mcp-proxy` | MCP proxy to reduce LLM token costs | 🚧 In progress |
+| [`aimemo`](https://github.com/rustkit-ai/aimemo) | Persistent memory for AI coding agents — Claude Code, Cursor, Windsurf, Copilot | ✅ Available |
 
 ## Philosophy
 
@@ -38,7 +38,8 @@ We believe the best developer tools are the ones that get out of your way — fa
 
 | | |
 |---|---|
-| [Strawbang](https://github.com/Strawbang) | Full-Stack Engineer · AI & Rust |
+| [Djamel Bougouffa](https://github.com/Strawbang) | Full-Stack Engineer · AI & Rust |
+| [Gokhan Kabar](https://github.com/GokhanKabar) | Full-Stack Engineer · AI & Rust |
 
 ---
 
