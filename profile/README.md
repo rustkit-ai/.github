@@ -1,50 +1,52 @@
+<!-- header -->
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=28&pause=1000&color=E8591A&center=true&vCenter=true&width=500&lines=rustkit-ai;AI+tools%2C+built+in+Rust." alt="rustkit-ai" />
 
-# rustkit-ai
+  <p><em>Fast. Lean. Crafted.</em></p>
 
-**AI-powered developer tools, built in Rust.**
-
-*Fast. Lean. Crafted.*
-
-[![GitHub Org](https://img.shields.io/badge/github-rustkit--ai-24292e?style=for-the-badge&logo=github)](https://github.com/rustkit-ai)
-[![Built with Rust](https://img.shields.io/badge/built%20with-Rust-F74C00?style=for-the-badge&logo=rust)](https://www.rust-lang.org)
-
+  [![aimemo](https://img.shields.io/crates/v/aimemo?label=aimemo&color=E8591A&logo=rust&logoColor=white)](https://crates.io/crates/aimemo)
+  [![GitHub stars](https://img.shields.io/github/stars/rustkit-ai/aimemo?style=flat&color=E8591A&logo=github&logoColor=white)](https://github.com/rustkit-ai/aimemo)
 </div>
 
 ---
 
-## What we build
+## `$ cargo install aimemo`
 
-We build open source tools that sit at the intersection of **AI** and **developer productivity** — obsessing over performance, token efficiency, and the craft of great tooling.
+**aimemo** gives AI coding agents persistent memory across sessions —
+Claude Code, Cursor, Windsurf, Copilot. One command, zero config.
 
-**Current focus:**
-- 🦀 **Rust-first** — fast, reliable, zero runtime overhead
-- 🤖 **AI tooling** — persistent memory, MCP servers, agentic workflows
-- ⚡ **Cost reduction** — less tokens, less noise, more signal
+→ [github.com/rustkit-ai/aimemo](https://github.com/rustkit-ai/aimemo)
 
-## Projects
-
-| Project | Description | Status |
-|---------|-------------|--------|
-| [`aimemo`](https://github.com/rustkit-ai/aimemo) | Persistent memory for AI coding agents — Claude Code, Cursor, Windsurf, Copilot | ✅ Available |
+---
 
 ## Philosophy
 
-> Good tooling should be invisible. We obsess over the craft so you can focus on shipping.
-
-We believe the best developer tools are the ones that get out of your way — fast to install, easy to configure, and honest about what they do.
-
-## Team
-
-| | |
-|---|---|
-| [Djamel Bougouffa](https://github.com/Strawbang) | Full-Stack Engineer · AI & Rust |
-| [Gokhan Kabar](https://github.com/GokhanKabar) | Full-Stack Engineer · AI & Rust |
+> Good tooling should be invisible.  
+> We obsess over the craft so you can focus on shipping.
 
 ---
 
-<div align="center">
+## Team
 
-*Open source first. Always.*
+<table>
+<tr>
+  <td align="center">
+    <a href="https://github.com/Strawbang">
+      <img src="https://github.com/Strawbang.png" width="60" /><br/>
+      <b>Djamel Bougouffa</b><br/>
+      <sub>@Strawbang</sub>
+    </a>
+  </td>
+  <td align="center">
+    <a href="https://github.com/GokhanKabar">
+      <img src="https://github.com/GokhanKabar.png" width="60" /><br/>
+      <b>Gokhan Kabar</b><br/>
+      <sub>@GokhanKabar</sub>
+    </a>
+  </td>
+</tr>
+</table>
 
-</div>
+---
+
+<div align="center"><sub>Open source first. Always.</sub></div>
