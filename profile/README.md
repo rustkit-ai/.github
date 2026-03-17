@@ -3,7 +3,7 @@
 
   <br/>
   <p><strong>An open source organization building AI-native developer tools in Rust.</strong></p>
-  <p><em>Fast. Lean. Crafted.</em></p>
+  <p><em>Fast. Lean. Open.</em></p>
 
   <br/>
 
@@ -16,11 +16,9 @@
 
 ## Who we are
 
-**rustkit-ai** is an open source organization focused on one thing: making AI-assisted development faster, smarter, and cheaper — using Rust.
+**rustkit-ai** is an open source organization building AI-native developer tools in Rust.
 
-We build tools that sit quietly in your workflow and do their job without getting in the way. No bloat. No magic. No vendor lock-in.
-
-Our tools are designed for developers who care about performance, reliability, and the craft of great software.
+We focus on the problems that slow down AI-assisted development — context loss, token costs, local inference — and ship tools that solve them directly.
 
 ---
 
@@ -63,13 +61,6 @@ More tools coming soon.
 We welcome contributions of all kinds — bug reports, feature ideas, code, docs, and feedback.
 
 Each repository has its own contributing guide. Feel free to open an issue or start a discussion.
-
----
-
-## Philosophy
-
-> Good tooling should be invisible.  
-> We obsess over the craft so you can focus on shipping.
 
 ---
 
