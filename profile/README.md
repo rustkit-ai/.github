@@ -1,35 +1,75 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=28&pause=1000&color=E8591A&center=true&vCenter=true&width=500&lines=rustkit-ai;Open+source+%C2%B7+Built+in+Rust." alt="rustkit-ai" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=28&pause=1000&color=E8591A&center=true&vCenter=true&width=600&lines=rustkit-ai;Open+source+%C2%B7+Built+in+Rust;AI+tools+for+developers." alt="rustkit-ai" />
 
-  <p><em>AI-native developer tools. Fast. Lean. Crafted.</em></p>
+  <br/>
+  <p><strong>An open source organization building AI-native developer tools in Rust.</strong></p>
+  <p><em>Fast. Lean. Crafted.</em></p>
+
+  <br/>
 
   [![GitHub Org](https://img.shields.io/badge/github-rustkit--ai-24292e?style=flat&logo=github&logoColor=white)](https://github.com/rustkit-ai)
   [![Built with Rust](https://img.shields.io/badge/built%20with-Rust-E8591A?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org)
+  [![License](https://img.shields.io/badge/license-MIT-blue?style=flat)](https://github.com/rustkit-ai/aimemo/blob/main/LICENSE)
 </div>
+
+---
+
+## Who we are
+
+**rustkit-ai** is an open source organization focused on one thing: making AI-assisted development faster, smarter, and cheaper — using Rust.
+
+We build tools that sit quietly in your workflow and do their job without getting in the way. No bloat. No magic. No vendor lock-in.
+
+Our tools are designed for developers who care about performance, reliability, and the craft of great software.
 
 ---
 
 ## What we build
 
-We build open source Rust tools at the intersection of **AI and developer productivity**.
+We work across three areas where AI development still has friction:
 
-Persistent memory for your agents. Token cost reduction. Local semantic search.  
-All designed to disappear into your workflow.
+**🧠 Memory & context** — AI agents lose context between sessions. We build tools that give them persistent, structured memory that survives across conversations.
+
+**⚡ Token efficiency** — LLM costs add up fast. We build proxies and filters that cut the noise before it reaches your model.
+
+**🔍 Local intelligence** — Semantic search and embeddings shouldn't require a cloud API. We build on-device inference tools that run anywhere Rust runs.
+
+---
 
 ## Projects
 
-| | |
-|---|---|
-| **[aimemo](https://github.com/rustkit-ai/aimemo)** | Persistent memory for AI coding agents — Claude Code, Cursor, Windsurf, Copilot |
-| **rustkit-mcp** | MCP proxy that reduces LLM token costs — filters and compresses tool output |
-| **rustkit-semantic** | Local semantic search for Rust apps — no cloud, no API key, fully on-device |
+### [aimemo](https://github.com/rustkit-ai/aimemo)
+Persistent memory for AI coding agents. Works with Claude Code, Cursor, Windsurf, and GitHub Copilot. One command to install, zero config required.
+
+```sh
+cargo install aimemo
+```
+
+More tools coming soon.
+
+---
+
+## Why Rust?
+
+- **Performance** — zero-cost abstractions, no garbage collector, predictable latency
+- **Reliability** — memory safety by design, no runtime surprises
+- **Portability** — compiles to a single binary, runs anywhere
+- **Ecosystem** — a growing, serious ecosystem for systems and AI tooling
+
+---
+
+## Contributing
+
+We welcome contributions of all kinds — bug reports, feature ideas, code, docs, and feedback.
+
+Each repository has its own contributing guide. Feel free to open an issue or start a discussion.
+
+---
 
 ## Philosophy
 
 > Good tooling should be invisible.  
 > We obsess over the craft so you can focus on shipping.
-
-Rust-first. Open source first. No bloat, no magic, no vendor lock-in.
 
 ---
 
@@ -39,16 +79,16 @@ Rust-first. Open source first. No bloat, no magic, no vendor lock-in.
 <tr>
   <td align="center">
     <a href="https://github.com/Strawbang">
-      <img src="https://github.com/Strawbang.png" width="64" /><br/>
+      <img src="https://github.com/Strawbang.png" width="72" /><br/><br/>
       <b>Djamel Bougouffa</b><br/>
-      <sub>@Strawbang</sub>
+      <sub>Co-founder · @Strawbang</sub>
     </a>
   </td>
   <td align="center">
     <a href="https://github.com/GokhanKabar">
-      <img src="https://github.com/GokhanKabar.png" width="64" /><br/>
+      <img src="https://github.com/GokhanKabar.png" width="72" /><br/><br/>
       <b>Gokhan Kabar</b><br/>
-      <sub>@GokhanKabar</sub>
+      <sub>Co-founder · @GokhanKabar</sub>
     </a>
   </td>
 </tr>
@@ -57,5 +97,5 @@ Rust-first. Open source first. No bloat, no magic, no vendor lock-in.
 ---
 
 <div align="center">
-  <sub>Open source first. Always.</sub>
+  <sub>Open source first. Always. · <a href="https://rustkit.ai">rustkit.ai</a></sub>
 </div>
