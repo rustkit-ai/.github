@@ -1,92 +1,57 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=28&pause=1000&color=E8591A&center=true&vCenter=true&width=600&lines=rustkit-ai;Open+source+%C2%B7+Built+in+Rust;AI+tools+for+developers." alt="rustkit-ai" />
+# rustkit-ai
 
-  <br/>
-  <p><strong>An open source organization building AI-native developer tools in Rust.</strong></p>
-  <p><em>Fast. Lean. Open.</em></p>
+Open source developer tools for AI-assisted development, built in Rust.
 
-  <br/>
+We work on the parts of the workflow that still create friction when you code with an AI agent: keeping context across sessions, cutting the token cost of large tool outputs, and running semantic search locally instead of shipping your code to a cloud API.
 
-  [![GitHub Org](https://img.shields.io/badge/github-rustkit--ai-24292e?style=flat&logo=github&logoColor=white)](https://github.com/rustkit-ai)
-  [![Built with Rust](https://img.shields.io/badge/built%20with-Rust-E8591A?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org)
-  [![License](https://img.shields.io/badge/license-MIT-blue?style=flat)](https://github.com/rustkit-ai/aimemo/blob/main/LICENSE)
-</div>
-
----
-
-## Who we are
-
-**rustkit-ai** is an open source organization building AI-native developer tools in Rust.
-
-We focus on the problems that slow down AI-assisted development (context loss, token costs, local inference) and ship tools that solve them directly.
-
----
+[GitHub](https://github.com/rustkit-ai) · [rustkit.ai](https://rustkit.ai) · MIT
 
 ## What we build
 
-We work across three areas where AI development still has friction:
+**Memory and context.** Agents lose context between sessions. We build tools that give them persistent, structured memory that survives across conversations.
 
-**🧠 Memory & context.** AI agents lose context between sessions. We build tools that give them persistent, structured memory that survives across conversations.
+**Token efficiency.** Large tool outputs and code context eat into the model's budget. We build proxies and filters that trim the noise before it reaches the model.
 
-**⚡ Token efficiency.** LLM costs add up fast. We build proxies and filters that cut the noise before it reaches your model.
-
-**🔍 Local intelligence.** Semantic search and embeddings shouldn't require a cloud API. We build on-device inference tools that run anywhere Rust runs.
-
----
+**Local intelligence.** Embeddings and semantic search don't need a cloud API. We build on-device tooling that runs anywhere Rust runs.
 
 ## Projects
 
+### [semtree](https://github.com/rustkit-ai/semtree)
+Semantic code search for any codebase: tree-sitter parsing, local embeddings, and hybrid (vector + BM25) retrieval. Runs on-device, no API key.
+
+```sh
+cargo install semtree-cli
+```
+
+### [trimcp](https://github.com/rustkit-ai/trimcp)
+An MCP proxy that compresses tool outputs before they reach the model, by stripping ANSI codes, minifying JSON, and deduplicating repeated lines. Works with any MCP client.
+
+```sh
+cargo install trimcp
+```
+
 ### [tersify](https://github.com/rustkit-ai/tersify)
-Compress code and text for LLMs by stripping noise. Reduce tokens by up to 50% and cut API costs without losing meaning.
+Strips noise from code and text before you send it to an LLM, so more fits in the context window. CLI or Rust library.
 
 ```sh
 cargo install tersify
 ```
 
 ### [aimemo](https://github.com/rustkit-ai/aimemo)
-Persistent memory for AI coding agents: Claude Code, Cursor, Windsurf, and GitHub Copilot. One command to install, zero config required.
+Persistent memory for AI coding agents (Claude Code, Cursor, Windsurf, Copilot). One command to install.
 
 ```sh
 cargo install aimemo
 ```
 
-### [semtree](https://github.com/rustkit-ai/semtree)
-Semantic code intelligence for Rust: tree-sitter parsing, embeddings, and RAG for multi-language codebases. Runs on-device, no cloud required.
-
-```sh
-cargo install semtree-cli
-```
-
 ### [semstore](https://github.com/rustkit-ai/semstore)
-Local semantic search for Rust applications. Store text, search by meaning, no cloud required. Available as a library for any Rust app.
+Local semantic search as a library for Rust apps: store text, search by meaning, no cloud.
 
-### [trimcp](https://github.com/rustkit-ai/trimcp)
-MCP proxy that reduces LLM token costs by 60-90% through compression and caching. Works transparently with any MCP-compatible client.
-
-```sh
-cargo install trimcp
-```
-
-Explore everything at [rustkit.ai](https://rustkit.ai).
-
----
-
-## Why Rust?
-
-- **Performance:** zero-cost abstractions, no garbage collector, predictable latency
-- **Reliability:** memory safety by design, no runtime surprises
-- **Portability:** compiles to a single binary, runs anywhere
-- **Ecosystem:** a growing, serious ecosystem for systems and AI tooling
-
----
+Everything is at [rustkit.ai](https://rustkit.ai).
 
 ## Contributing
 
-We welcome contributions of all kinds: bug reports, feature ideas, code, docs, and feedback.
-
-Each repository has its own contributing guide. Feel free to open an issue or start a discussion.
-
----
+Bug reports, feature ideas, code, docs, and feedback are all welcome. Each repo has its own contributing guide; open an issue or start a discussion.
 
 ## Team
 
@@ -96,21 +61,15 @@ Each repository has its own contributing guide. Feel free to open an issue or st
     <a href="https://github.com/Strawbang">
       <img src="https://github.com/Strawbang.png" width="72" /><br/><br/>
       <b>Djamel Bougouffa</b><br/>
-      <sub>Co-founder · @Strawbang</sub>
+      <sub>Co-founder, @Strawbang</sub>
     </a>
   </td>
   <td align="center">
     <a href="https://github.com/GokhanKabar">
       <img src="https://github.com/GokhanKabar.png" width="72" /><br/><br/>
       <b>Gokhan Kabar</b><br/>
-      <sub>Co-founder · @GokhanKabar</sub>
+      <sub>Co-founder, @GokhanKabar</sub>
     </a>
   </td>
 </tr>
 </table>
-
----
-
-<div align="center">
-  <sub>Open source first. Always. · <a href="https://rustkit.ai">rustkit.ai</a></sub>
-</div>
